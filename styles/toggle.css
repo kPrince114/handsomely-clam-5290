@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#slider {
+  width: 300px;
+  height: 100%;
+  color: white;
+  background-color: #03738f;
+  position: fixed;
+  font-size: 16px;
+  top: 0px;
+  z-index: 100;
+  transition: transform 5s ease-in-out;
+  display: none;
+}
+
+#slider img {
+  width: 20px;
+  margin: 21px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.slider {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.093);
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.plus :nth-child(2) {
+  font-size: 30px;
+}
+
+#close {
+  cursor: pointer;
+}
