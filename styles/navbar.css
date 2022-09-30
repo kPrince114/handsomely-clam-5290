@@ -76,6 +76,7 @@
  .navContent2 div:hover{
     cursor: pointer;
     background-color: #03738f ;
+   
  }
 
  
@@ -119,24 +120,56 @@ position:absolute;
 top:35px;
 background-color:#0087a8 ;
 padding:5px 5px;
+display:none;
 }
 
-.dropdown-menu a{
+.dropdown:hover>.dropdown-menu{
+   display:block;
+}
+
+
+.dropdown-menu>a{
     color:white;
     font-size: 12px;
     border-bottom:0.5px solid #1c1c1c3c;
     padding:8px 8px;
+    display:block;
     
    
 
 }
 
 
-.dropdown-menu a:hover{
+.dropdown-menu>a:hover{
 
     cursor: pointer;
     background-color: #03738f ;
+    display:block;
 }
+
+a{
+   color:white;
+}
+
+.button{
+
+   width:100px;
+   height:20px;
+   font-size:auto;
+margin: 8px 30px;
+border-radius:10px;
+border: none;
+cursor: pointer;
+
+
+}
+
+.button:hover{
+   background-color:#1c1c1c;
+   color: white;
+
+}
+
 
 
 
