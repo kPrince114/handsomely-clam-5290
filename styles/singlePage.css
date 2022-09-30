@@ -1,0 +1,15 @@
+body{
+    background-color: aliceblue;
+}
+#SingleData {
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    background-color: antiquewhite;
+  }
+  img {
+    width: 100%;
+  }
