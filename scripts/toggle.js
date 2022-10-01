@@ -16,8 +16,7 @@ close.addEventListener("click", function(){
 
 let button= document.querySelector(".button").addEventListener("click", function(){
 
-window.location.href="search.html"
-
+window.location.href="search.html";
 
 })
 
