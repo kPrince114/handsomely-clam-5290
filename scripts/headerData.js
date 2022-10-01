@@ -32,6 +32,9 @@ let header1Data=`<div class="header11">
       src="https://www.deccanherald.com/sites/deccanherald.com/themes/deccanherald/images/icons/ig-nav.svg"
   /></a>
 </div>
+</div>
+<div class="header14"> 
+<a href="#" target="blank"><img src="https://www.deccanherald.com/sites/dh/themes/deccanherald/images/dhcup/dh-cup-120x110.png" /></a>
 </div>`
 
 
