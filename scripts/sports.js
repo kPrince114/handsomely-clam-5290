@@ -182,3 +182,90 @@ const appendcricketData = (data) => {
         cricket_Conatiner.append(div)
     });
 }
+
+let getFootballData = async () => {
+    try {
+        let res = await fetch(`https://newsapi.org/v2/everything?q=football&apiKey=9bf176f2eafd4862b769de39177ae88f`);
+        let data = await res.json();
+        // console.log(data.articles);
+
+        let temparr = [];
+        for (let i = 0; i < 6; i++) {
+            temparr.push(data.articles[i]);
+        }
+        // console.log(temparr)
+        appendFootballData(temparr);
+    } catch (e) {
+        console.log(e);
+    }
+}
+getFootballData();
+
+const appendFootballData = (data) => {
+    console.log(data);
+    let football_Conatiner = document.getElementById("football")
+    football_Conatiner.innerHTML = null;
+    data.forEach(({ urlToImage, author, title, description, url }) => {
+
+        let div = document.createElement("div");
+        div.onclick = () => {
+            savelocal({ urlToImage, author, title, description, url });
+
+        }
+        let image = document.createElement("img");
+        image.src = urlToImage;
+        image.setAttribute("class", "img");
+        let author_name = document.createElement("p");
+        author_name.innerText = author;
+        let title_m = document.createElement("p");
+        title_m.innerText = title;
+        let details = document.createElement("p");
+        details.innerText = description;
+        div.append(image, author_name, title_m, details);
+        football_Conatiner.append(div);
+    });
+};
+
+
+let getF_oneData = async () => {
+    try {
+        let res = await fetch(`https://newsapi.org/v2/everything?q=formula1&apiKey=9bf176f2eafd4862b769de39177ae88f`);
+        let data = await res.json();
+        // console.log(data.articles);
+
+        let temparr = [];
+        for (let i = 0; i < 6; i++) {
+            temparr.push(data.articles[i]);
+        }
+        // console.log(temparr)
+        appendF_oneData(temparr);
+    } catch (e) {
+        console.log(e);
+    }
+}
+getF_oneData();
+
+const appendF_oneData = (data) => {
+    console.log(data);
+    let f_one_Conatiner = document.getElementById("f_one")
+    f_one_Conatiner.innerHTML = null;
+    data.forEach(({ urlToImage, author, title, description, url }) => {
+
+        let div = document.createElement("div");
+        div.onclick = () => {
+            savelocal({ urlToImage, author, title, description, url });
+
+        }
+        let image = document.createElement("img");
+        image.src = urlToImage;
+        image.setAttribute("class", "img");
+        let author_name = document.createElement("p");
+        author_name.innerText = author;
+        let title_m = document.createElement("p");
+        title_m.innerText = title;
+        let details = document.createElement("p");
+        details.innerText = description;
+        div.append(image, author_name, title_m, details);
+        f_one_Conatiner.append(div);
+    });
+};
