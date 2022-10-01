@@ -1,13 +1,23 @@
 
 // KEY=`b9b66b3f31b34e9fa734199462c5c98d`
+// PAPI="927d8ed811d04a528848961ef27aebc5"
 // https://newsapi.org/v2/top-headlines?country=us&apiKey=b9b66b3f31b34e9fa734199462c5c98d
+
+let APIKEY="b9b66b3f31b34e9fa734199462c5c98d";
+
+import navbar from "./components/navbar.js";
+console.log(navbar)
+
+let navbar_div = document.getElementById("navbar");
+navbar_div.innerHTML=navbar()
+
 
 const trand = async () =>{
 
 let newa=document.getElementById("trand")
 
 try{
-    let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&apiKey=927d8ed811d04a528848961ef27aebc5`);
+    let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&apiKey=${APIKEY}`);
     let data=await res.json();
     console.log(data)
     appendData(data.articles)
@@ -59,7 +69,7 @@ const appendData = (data) => {
                 let array1 = []
                 array1.push(ele)
                 localStorage.setItem("news", JSON.stringify(array1))
-                window.location.href = "drop.html";
+                window.location.href = "explore.html";
             });
             if(c<=2){
                 two.append(div1)
@@ -100,7 +110,7 @@ const appendData = (data) => {
     let newa=document.getElementById("trand")
 
     try{                                                                                               
-        let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&apiKey=927d8ed811d04a528848961ef27aebc5`);
+        let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&apiKey=${APIKEY}`);
         let data=await res.json();
         console.log(data)
         append_Data(data.articles)
@@ -145,7 +155,7 @@ const appendData = (data) => {
                     let array1 = []
                     array1.push(ele)
                     localStorage.setItem("news", JSON.stringify(array1))
-                    window.location.href = "drop.html";
+                    window.location.href = "explore.html";
                 });
                 if(c<=1){
                     eleventh.append(div1)
@@ -177,7 +187,7 @@ const appendData = (data) => {
         let newa=document.getElementById("trand")
     
         try{                                                                                               
-            let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&apiKey=927d8ed811d04a528848961ef27aebc5`);
+            let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&apiKey=${APIKEY}`);
             let data=await res.json();
             console.log(data)
             append_data(data.articles)
@@ -222,7 +232,7 @@ const appendData = (data) => {
                         let array1 = []
                         array1.push(ele)
                         localStorage.setItem("news", JSON.stringify(array1))
-                        window.location.href = "drop.html";
+                        window.location.href = "explore.html";
                     });
                     if(c<1){
                         fifteen.append(div1)
@@ -253,7 +263,7 @@ const appendData = (data) => {
             let newa=document.getElementById("trand")
         
             try{                                                                                               
-                let res=await fetch (`https://newsapi.org/v2/top-headlines?category=sports&apiKey=927d8ed811d04a528848961ef27aebc5`);
+                let res=await fetch (`https://newsapi.org/v2/top-headlines?category=sports&apiKey=${APIKEY}`);
                 let data=await res.json();
                 console.log(data)
                 append_da(data.articles)
@@ -299,7 +309,7 @@ const appendData = (data) => {
                             let array1 = []
                             array1.push(ele)
                             localStorage.setItem("news", JSON.stringify(array1))
-                            window.location.href = "drop.html";
+                            window.location.href = "explore.html";
                         });
                         if(c<=1){
                             eighteen.append(div1)
@@ -334,7 +344,7 @@ const appendData = (data) => {
                 let newa=document.getElementById("trand")
             
                 try{                                                                                               
-                    let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=927d8ed811d04a528848961ef27aebc5`);
+                    let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=${APIKEY}`);
                     let data=await res.json();
                     console.log(data)
                     append_dada(data.articles)
@@ -377,7 +387,7 @@ const appendData = (data) => {
                                 let array1 = []
                                 array1.push(ele)
                                 localStorage.setItem("news", JSON.stringify(array1))
-                                window.location.href = "drop.html";
+                                window.location.href = "explore.html";
                             });
                             if(c<1){
                                ttwo.append(div1)
@@ -399,3 +409,77 @@ const appendData = (data) => {
                   }
     
     
+
+
+
+    //  ***************************************            
+    
+    
+
+    const science = async () =>{
+
+        let newa=document.getElementById("trand")
+    
+        try{                                                                                               
+            let res=await fetch (`https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=${APIKEY}`);
+            let data=await res.json();
+            console.log(data)
+            append_tada(data.articles)
+        }
+        catch(err){
+            console.log(err)   
+        
+        }
+        
+        }
+        science()
+        
+       let sone = document.getElementById("sone")
+        let stwo = document.getElementById("stwo");
+        let sthree = document.getElementById("sthree")
+        
+          
+                                       
+        const append_tada = (data) => {
+            // two.innerHTML = null;
+            let c=0;
+            data.forEach((ele) => {
+                if(c<20){
+                    let div1 = document.createElement("div");
+                   
+                    let img = document.createElement('img');
+                    img.src = ele.urlToImage;
+                    let div2 = document.createElement("div");
+                    div2.append(img);
+                    let title = document.createElement('p');
+                    title.innerText = ele.title;
+                   
+                    
+                    let div3 = document.createElement("div")
+                    
+                    div3.append(title)
+                    div1.append(div2,div3)
+                    
+                    div1.addEventListener("click", function () {
+                        let array1 = []
+                        array1.push(ele)
+                        localStorage.setItem("news", JSON.stringify(array1))
+                        window.location.href = "explore.html";
+                    });
+                    if(c<1){
+                       sone.append(div2)
+                        div2.setAttribute("class","sone1")
+                        stwo.append(div3)
+                        div3.setAttribute("class","stwo2")
+                    }
+                    else if(c>=1 && c<=3){
+                       sthree.append(div1);
+                        div1.setAttribute("class","sthree3")
+        
+                    }
+                                                              
+                    c++
+                }                  
+            });
+            console.log(c)
+          }
