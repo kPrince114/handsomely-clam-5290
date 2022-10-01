@@ -16,7 +16,6 @@ gap: 10%;
 #tennis {
     width: 80%;
     height: 1200px;
-    border: 1px solid red;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -45,7 +44,6 @@ gap: 10%;
   
   
 #tennis > div:nth-child(1) {
-    border: 2px solid red;
     grid-area: grn;
   }
   #tennis > div:nth-child(1)>img{
@@ -53,30 +51,29 @@ gap: 10%;
   }
   
   #tennis > div:nth-child(2) {
-    border: 2px solid blue;
-    grid-area: ylw;
+       grid-area: ylw;
     height: 300px;
   }
   #tennis > div:nth-child(3) {
-    border: 2px solid green;
+   
     grid-area: rd;
     height: 400px;
   }
   
   #tennis > div:nth-child(4) {
-    border: 2px solid purple;
+
     grid-area: mrn;
     height: 400px;
   }
   
   #tennis > div:nth-child(5) {
-    border: 2px solid black;
+   
     grid-area: blu;
     height: 400px;
   }
   
   #tennis > div:nth-child(6) {
-    border: 2px solid yellow;
+   
     grid-area: dpink;
     height: 400px;
   }
@@ -103,10 +100,17 @@ gap: 10%;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 150px;
     cursor: pointer;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   /* tennis is over here>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+  .line_01{
+    width:3%;
+  background-color: green;
+  height: 3px;
+  margin-left: 150px;
+  margin-bottom: -90px;
+  }
 
 
 
@@ -120,8 +124,7 @@ gap: 10%;
   #cricket{
     width: 80%;
     height: 1030px;
-    border: 1px solid red;
-    margin: auto;
+      margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -147,7 +150,7 @@ gap: 10%;
    
   }
   #cricket > div:nth-child(1) {
-    border: 2px solid red;
+    
     grid-area: grn;
   }
   #cricket > div:nth-child(1)>img{
@@ -155,30 +158,29 @@ gap: 10%;
   }
   
   #cricket > div:nth-child(2) {
-    border: 2px solid blue;
-    grid-area: ylw;
+       grid-area: ylw;
     height: 300px;
   }
   #cricket > div:nth-child(3) {
-    border: 2px solid green;
+   
     grid-area: rd;
     height: 400px;
   }
   
   #cricket > div:nth-child(4) {
-    border: 2px solid purple;
+
     grid-area: mrn;
     height: 400px;
   }
   
   #cricket > div:nth-child(5) {
-    border: 2px solid black;
+   
     grid-area: blu;
     height: 400px;
   }
   
   #cricket > div:nth-child(6) {
-    border: 2px solid yellow;
+
     grid-area: dpink;
     height: 400px;
   }
@@ -197,7 +199,6 @@ gap: 10%;
 #football{
   width: 80%;
   height: 1030px;
-  border: 1px solid red;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -224,7 +225,6 @@ gap: 10%;
  
 }
 #football > div:nth-child(1) {
-  border: 2px solid red;
   grid-area: grn;
 }
 #football > div:nth-child(1)>img{
@@ -232,30 +232,28 @@ gap: 10%;
 }
 
 #football > div:nth-child(2) {
-  border: 2px solid blue;
-  grid-area: ylw;
+   grid-area: ylw;
   height: 300px;
 }
 #football > div:nth-child(3) {
-  border: 2px solid green;
+ 
   grid-area: rd;
   height: 400px;
 }
 
 #football > div:nth-child(4) {
-  border: 2px solid purple;
   grid-area: mrn;
   height: 400px;
 }
 
 #football > div:nth-child(5) {
-  border: 2px solid black;
+ 
   grid-area: blu;
   height: 400px;
 }
 
 #football > div:nth-child(6) {
-  border: 2px solid yellow;
+
   grid-area: dpink;
   height: 400px;
 }
@@ -272,7 +270,6 @@ gap: 10%;
 #f_one{
   width: 80%;
   height: 1030px;
-  border: 1px solid red;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -299,7 +296,7 @@ gap: 10%;
  
 }
 #f_one > div:nth-child(1) {
-  border: 2px solid red;
+
   grid-area: grn;
 }
 #f_one > div:nth-child(1)>img{
@@ -307,30 +304,29 @@ gap: 10%;
 }
 
 #f_one > div:nth-child(2) {
-  border: 2px solid blue;
-  grid-area: ylw;
+   grid-area: ylw;
   height: 300px;
 }
 #f_one > div:nth-child(3) {
-  border: 2px solid green;
+ 
   grid-area: rd;
   height: 400px;
 }
 
 #f_one > div:nth-child(4) {
-  border: 2px solid purple;
+
   grid-area: mrn;
   height: 400px;
 }
 
 #f_one > div:nth-child(5) {
-  border: 2px solid black;
+ 
   grid-area: blu;
   height: 400px;
 }
 
 #f_one > div:nth-child(6) {
-  border: 2px solid yellow;
+
   grid-area: dpink;
   height: 400px;
 }

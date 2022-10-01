@@ -157,7 +157,9 @@ function navbar(){
 <div id="navContent4">
 <button class="button"> Search Here</button>
 </div>
-`}
+`
+
+}
 
  
 

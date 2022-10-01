@@ -8,20 +8,19 @@
 #footer1{
 width:100%;
 height:50vh;
-background-color:#0087a8;
+background-color:#0d4e5e;
 margin-top:550px;
 margin-bottom: 200px;
 
 }
 
 #footer11{
+   background-color: #0087a8;
     width:auto;
     height:70%;
     padding:20px;
     display:flex;
     justify-content: space-around;
-    
-    
 }
  #footer12{
 width:100%;
@@ -32,9 +31,7 @@ display:flex;
 justify-content: space-around;
 align-items: center;
 text-transform: uppercase;
-
-
-
+background-color: #0087a8;
  }
 
  .footer11-title{
