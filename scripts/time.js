@@ -1,3 +1,10 @@
+
+import header from "../components/header.js"
+
+document.querySelector("#header1").innerHTML = header();
+
+
+
 const months = [
   "Jan",
   "Feb",
@@ -50,3 +57,4 @@ let addDateTime = () => {
   containter.append(date_time);
 };
 addDateTime();
+
