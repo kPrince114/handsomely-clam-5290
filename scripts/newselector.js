@@ -1,7 +1,28 @@
+import header from "../components/header.js"
+document.querySelector("#header1").innerHTML = header();
+
 import navbar from "../components/navbar.js";
-console.log(navbar)
-let navbar_div = document.getElementById("navbar");
-navbar_div.innerHTML = navbar()
+let navbar_ = document.getElementById("navbar");
+navbar_.innerHTML = navbar();
+
+
+import footer1 from "../components/footer1.js";
+let footer_ = document.getElementById("footer1");
+footer_.innerHTML = footer1();
+
+
+
+import footer2 from "../components/footer2.js"
+document.querySelector("#footer2").innerHTML=footer2();
+
+
+
+import footer3 from "../components/footer3.js"
+document.querySelector("#footer3").innerHTML = footer3();
+// import navbar from "../components/navbar.js";
+// console.log(navbar)
+// let navbar_div = document.getElementById("navbar");
+// navbar_div.innerHTML = navbar()
 
 const maindiv = document.getElementsByClassName("but");
 let onclickfo=document.getElementById("onclickfo")

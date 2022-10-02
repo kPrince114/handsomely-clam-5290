@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Search Prince</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/toggle.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/exploresearch.css">
-    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
+    <div id="header1"></div>
+    <div id="navbar"></div>
+
     <div class="main">
-        <a href="">Home</a>/Special
-        <h1>Search</h1>
+        <a style="color: green;" href="">Home</a>/Special
+        <h1 style="margin-top: 10px;">Search bar</h1>
         <div class="line"></div>
-        <input type="text" placeholder="Search" id="search" onkeypress="enter(event)">
+        <input type="text" placeholder="Search" id="search" >
         <h4>SEARCH RESULTS</h4>
         <div class="result">
             <div id="result_s">
@@ -71,7 +77,7 @@
                     <h3 class="a3">WHAT'S BREWING</h3>
                 </div>
                 <div class="a2a4">
-
+            
                 </div>
                 <div class="a2a5">
                     <p>What does your star sign say?</p>
@@ -81,13 +87,15 @@
         </div>
     </div>
     <div id="footer1"></div>
-<div id="footer2"></div>
-<div id="footer3"></div>
+    <div id="footer2"></div>
+     <div id="footer3"></div>
 </body>
 </html>
-<script src="./scripts/exploresearch.js">
+<script type="module" src="./scripts/exploresearch.js">
     
 </script>
-<script  type="module" src="scripts/footer1Data.js"></script> 
+<script type="module" src="./scripts/toggle.js"></script>
+<script type="module" src="./scripts/time.js"></script>
+<script type="module" src="./scripts/footer1Data.js"></script>
 <script type="module" src="./scripts/footer2Data.js"></script>
-<script type="module" src="./scripts/footer3data.js"></script>
+<script type="module" src="./scripts/footer3Data.js"></script>

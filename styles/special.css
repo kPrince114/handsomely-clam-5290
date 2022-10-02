@@ -21,6 +21,7 @@ body {
     min-height: 1000px;
     border: 0px solid red;
     margin: auto;
+    margin-top: 200px;
 }
 
 .main2 {
@@ -478,6 +479,7 @@ height: 100%;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 50%;
     gap: 10px 20px;
+    margin-bottom: -440px;
     
 }
 .add>div{

@@ -1,8 +1,30 @@
-import navbar from "../components/navbar.js";
-console.log(navbar)
+import header from "../components/header.js"
+document.querySelector("#header1").innerHTML = header();
 
-let navbar_div = document.getElementById("navbar");
-navbar_div.innerHTML=navbar();
+// let navbar_div = document.getElementById("navbar");
+// navbar_div.innerHTML=navbar();
+
+import navbar from "../components/navbar.js";
+let navbar_ = document.getElementById("navbar");
+navbar_.innerHTML = navbar();
+
+
+import footer1 from "../components/footer1.js";
+let footer_ = document.getElementById("footer1");
+footer_.innerHTML = footer1();
+
+
+
+import footer2 from "../components/footer2.js"
+document.querySelector("#footer2").innerHTML=footer2();
+
+
+
+import footer3 from "../components/footer3.js"
+document.querySelector("#footer3").innerHTML = footer3();
+
+
+
 
 let data1 = JSON.parse(localStorage.getItem("news"));
     console.log(data1);

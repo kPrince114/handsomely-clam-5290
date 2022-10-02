@@ -1,7 +1,35 @@
-async function enter(event){
+import header from "../components/header.js"
+document.querySelector("#header1").innerHTML = header();
+
+import navbar from "../components/navbar.js";
+let navbar_ = document.getElementById("navbar");
+navbar_.innerHTML = navbar();
+
+
+import footer1 from "../components/footer1.js";
+let footer_ = document.getElementById("footer1");
+footer_.innerHTML = footer1();
+
+
+
+import footer2 from "../components/footer2.js"
+document.querySelector("#footer2").innerHTML=footer2();
+
+
+
+import footer3 from "../components/footer3.js"
+document.querySelector("#footer3").innerHTML = footer3();
+
+
+document.getElementById("search").addEventListener("change",(event)=>{
+  console.log("xyz")
+  funct();
+})
+  
+async function funct(){
     try {
         let quary=document.getElementById("search").value;
-      let res = await fetch(`https://masai-mock-api-2.herokuapp.com/news/top-headlines?country=${quary}`);
+      let res = await fetch(`https://newsapi.org/v2/everything?q=${quary}&from=2022-09-02&sortBy=publishedAt&apiKey=f3401637e03e45a99071f25c804a751b`);
       let data = await res.json();
       console.log(data.articles);
        appendProducts(data.articles);
@@ -10,6 +38,7 @@ async function enter(event){
     }
 }
   let maindiv = document.getElementById("result_s")
+
   let appendProducts = (data) => {
     maindiv.innerHTML = null;
     data.forEach((ele) => {

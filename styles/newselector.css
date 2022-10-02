@@ -10,7 +10,8 @@ body{
     min-height: 1100px;
     border: 0px solid green;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 220px;
+    margin-bottom: -450px;
 }
 #main1{
     width: 100%;
