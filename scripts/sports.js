@@ -24,7 +24,7 @@ document.querySelector("#footer3").innerHTML = footer3();
 
 let gettennisData = async () => {
     try {
-        let res = await fetch(`https://newsapi.org/v2/everything?q=tennis&apiKey=9bf176f2eafd4862b769de39177ae88f`);
+        let res = await fetch(`https://newsapi.org/v2/everything?q=tennis&apiKey=2f4e368733114c16815ec5c3ff039369`);
         let data = await res.json();
         // console.log(data.articles);
 
@@ -79,7 +79,7 @@ const savelocal = (data) => {
 
 let getcricketData = async () => {
     try {
-        let res = await fetch(`https://newsapi.org/v2/everything?q=cricket&apiKey=9bf176f2eafd4862b769de39177ae88f`);
+        let res = await fetch(`https://newsapi.org/v2/everything?q=cricket&apiKey=2f4e368733114c16815ec5c3ff039369`);
         let data = await res.json();
         // console.log(data.articles);
 
@@ -125,7 +125,7 @@ const appendcricketData = (data) => {
 
 let getFootballData = async () => {
     try {
-        let res = await fetch(`https://newsapi.org/v2/everything?q=football&apiKey=9bf176f2eafd4862b769de39177ae88f`);
+        let res = await fetch(`https://newsapi.org/v2/everything?q=football&apiKey=2f4e368733114c16815ec5c3ff039369`);
         let data = await res.json();
         // console.log(data.articles);
 
@@ -169,7 +169,7 @@ const appendFootballData = (data) => {
 
 let getF_oneData = async () => {
     try {
-        let res = await fetch(`https://newsapi.org/v2/everything?q=formula1&apiKey=9bf176f2eafd4862b769de39177ae88f`);
+        let res = await fetch(`https://newsapi.org/v2/everything?q=formula1&apiKey=2f4e368733114c16815ec5c3ff039369`);
         let data = await res.json();
         // console.log(data.articles);
 

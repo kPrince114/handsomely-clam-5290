@@ -3,7 +3,7 @@
 // PAPI="927d8ed811d04a528848961ef27aebc5"
 // https://newsapi.org/v2/top-headlines?country=us&apiKey=b9b66b3f31b34e9fa734199462c5c98d
 
-let APIKEY="b9b66b3f31b34e9fa734199462c5c98d";
+let APIKEY="2f4e368733114c16815ec5c3ff039369";
 
 import navbar from "./components/navbar.js";
 console.log(navbar)
