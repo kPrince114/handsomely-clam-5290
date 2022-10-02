@@ -1,5 +1,5 @@
 function navbar(){
-  return ` <div class="hamburger">
+  return ` <div id="hamburger">
 <div id="hb1"></div>
 <div id="hb2"></div>
 <div id="hb3"></div>
