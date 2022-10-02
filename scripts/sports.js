@@ -73,7 +73,7 @@ const appendtennisData = (data) => {
 const savelocal = (data) => {
     console.log(data);
     localStorage.setItem("singleData", JSON.stringify(data));
-     window.location.href = "singlePage.html";
+     window.location.href = "explore.html";
 };
 
 
