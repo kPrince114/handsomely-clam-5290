@@ -1,4 +1,5 @@
-footer2Data=` <div class="footer2">
+function footer2() {
+  return `<div class="footer2">
 <div class="footer21 footer21-title"><h3>DH PICKS</h3></div>
 <div class="footer21 footer21-part"><a href="#" target="blank"><p>Strong USD stokes fear of 1997-like currency crash</p></a></div>
 <div class="footer21 footer21-part"><a href="#" target="blank"><p>UNSC resolution on Ukraine vetoed; India abstains</p></a></div>
@@ -45,12 +46,6 @@ footer2Data=` <div class="footer2">
 <div class="footer21 footer21-part"><a href="#" target="blank"><p>Grievance Redressal</p></a></div>
 </div>
 </div>`;
+}
 
-
-
-
-
-
-
-let footer2=document.querySelector("#footer2");
-footer2.innerHTML=footer2Data;
+export default footer2;
