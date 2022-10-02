@@ -4,6 +4,7 @@ let close=document.querySelector("#close");
 
 burger.addEventListener("click", function(){
 slider.style.display="block";
+console.log("abjsk")
 });
 
 
@@ -16,8 +17,7 @@ close.addEventListener("click", function(){
 
 let button= document.querySelector(".button").addEventListener("click", function(){
 
-window.location.href="search.html"
-
+window.location.href="search.html";
 
 })
 

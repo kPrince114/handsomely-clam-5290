@@ -1,0 +1,346 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* #tennis{
+width: 80%;
+border: 1px solid red;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat();   
+gap: 10%;
+} */
+#tennis {
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-areas:
+      "grn grn grn ylw"
+      "rd mrn blu dpink";
+  }
+  #tennis > div > img {
+    width: 100%;
+  }
+  #tennis > div > p {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+  }
+  #tennis > div > p:hover{
+    color: black;
+    text-decoration: underline;
+
+  }
+  #tennis > div{
+    background-color: #f6f6f6 ;
+  }
+  
+  
+#tennis > div:nth-child(1) {
+    grid-area: grn;
+  }
+  #tennis > div:nth-child(1)>img{
+    width: 100%;
+  }
+  
+  #tennis > div:nth-child(2) {
+       grid-area: ylw;
+    height: 300px;
+  }
+  #tennis > div:nth-child(3) {
+   
+    grid-area: rd;
+    height: 400px;
+  }
+  
+  #tennis > div:nth-child(4) {
+
+    grid-area: mrn;
+    height: 400px;
+  }
+  
+  #tennis > div:nth-child(5) {
+   
+    grid-area: blu;
+    height: 400px;
+  }
+  
+  #tennis > div:nth-child(6) {
+   
+    grid-area: dpink;
+    height: 400px;
+  }
+  #section_alp{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+  #sp_sports{
+    background-color: rgb(109, 162, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+  }
+  #sp_line{
+    width: 90%;
+    margin: auto;
+  }
+  #h3_tennis{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: 150px;
+  }
+  /* tennis is over here>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+  .line_01{
+    width:3%;
+  background-color: green;
+  height: 3px;
+  margin-left: 150px;
+  margin-bottom: -90px;
+  }
+
+
+
+
+  #h3_cricket{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: 100px;
+  }
+  #cricket{
+    width: 80%;
+    height: 1030px;
+      margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-areas:
+      "grn grn grn ylw"
+      "rd mrn blu dpink";
+  }
+  #cricket > div > img {
+    width: 100%;
+  }
+  #cricket > div > p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   }
+   #cricket > div > p:hover{
+    color: black;
+    text-decoration: underline;
+  }
+  #cricket > div{
+    background-color: #f6f6f6 ;
+   
+  }
+  #cricket > div:nth-child(1) {
+    
+    grid-area: grn;
+  }
+  #cricket > div:nth-child(1)>img{
+    width: 100%;
+  }
+  
+  #cricket > div:nth-child(2) {
+       grid-area: ylw;
+    height: 300px;
+  }
+  #cricket > div:nth-child(3) {
+   
+    grid-area: rd;
+    height: 400px;
+  }
+  
+  #cricket > div:nth-child(4) {
+
+    grid-area: mrn;
+    height: 400px;
+  }
+  
+  #cricket > div:nth-child(5) {
+   
+    grid-area: blu;
+    height: 400px;
+  }
+  
+  #cricket > div:nth-child(6) {
+
+    grid-area: dpink;
+    height: 400px;
+  }
+  
+  /* CSS of CRICKET OVER HERE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* football____________-------> */
+
+
+#h3_football{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+#football{
+  width: 80%;
+  height: 1030px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  grid-template-areas:
+    "grn grn grn ylw"
+    "rd mrn blu dpink";
+}
+#football > div > img {
+  width: 100%;
+}
+#football > div > p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+ }
+ #football > div > p:hover{
+  color: black;
+  text-decoration: underline;
+}
+#football > div{
+  background-color: #f6f6f6 ;
+ 
+}
+#football > div:nth-child(1) {
+  grid-area: grn;
+}
+#football > div:nth-child(1)>img{
+  width: 100%;
+}
+
+#football > div:nth-child(2) {
+   grid-area: ylw;
+  height: 300px;
+}
+#football > div:nth-child(3) {
+ 
+  grid-area: rd;
+  height: 400px;
+}
+
+#football > div:nth-child(4) {
+  grid-area: mrn;
+  height: 400px;
+}
+
+#football > div:nth-child(5) {
+ 
+  grid-area: blu;
+  height: 400px;
+}
+
+#football > div:nth-child(6) {
+
+  grid-area: dpink;
+  height: 400px;
+}
+
+ /* CSS of f1  starts from HERE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+ #h3_f_one{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+#f_one{
+  width: 80%;
+  height: 1030px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  grid-template-areas:
+    "grn grn grn ylw"
+    "rd mrn blu dpink";
+}
+#f_one > div > img {
+  width: 100%;
+}
+#f_one > div > p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+ }
+ #f_one > div > p:hover{
+  color: black;
+  text-decoration: underline;
+}
+#f_one > div{
+  background-color: #f6f6f6 ;
+ 
+}
+#f_one > div:nth-child(1) {
+
+  grid-area: grn;
+}
+#f_one > div:nth-child(1)>img{
+  width: 100%;
+}
+
+#f_one > div:nth-child(2) {
+   grid-area: ylw;
+  height: 300px;
+}
+#f_one > div:nth-child(3) {
+ 
+  grid-area: rd;
+  height: 400px;
+}
+
+#f_one > div:nth-child(4) {
+
+  grid-area: mrn;
+  height: 400px;
+}
+
+#f_one > div:nth-child(5) {
+ 
+  grid-area: blu;
+  height: 400px;
+}
+
+#f_one > div:nth-child(6) {
+
+  grid-area: dpink;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+
