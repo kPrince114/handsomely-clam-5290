@@ -1,88 +1,90 @@
 *{
-    padding:0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
+   padding:0px;
+   margin: 0px;
+   box-sizing: border-box;
+   font-family: sans-serif;
 }
 
 #navbar{
-    width:100%;
-    height:45px;
-    background-color: #0087a8;
-    display:flex;
+   width:100%;
+   height:35px;
+   background-color: #0087a8;
+   display:flex;
+   position:fixed;
+   top:150px;
 }
 
-.hamburger {
-    width: 35px;
-    height: 100%;
-    cursor: pointer;
-    border-right: 1px solid white;
-    margin-left: 8vw;
-    padding:5px;
-    padding-right:10px;
- 
-    
+#hamburger {
+   width: 35px;
+   height: 100%;
+   cursor: pointer;
+   border-right: 1px solid white;
+   margin-left: 8vw;
+   padding:5px;
+   padding-right:10px;
+
+   
 }
 
-.hamburger #hb1{
-    background-color: azure;
-    width:100%;
-    height:13%;
-    border-radius:10px;
-    margin-top:3px;
-    right:0px;
-    
-    
- }
- .hamburger #hb2{
-    background-color: azure;
-    width:100%;
-    height:13%;
-    border-radius:10px;
-    margin-top:3px;
- }
- .hamburger #hb3{
-    background-color: azure;
-    width:100%;
-    height:13%;
-    border-radius:10px;
-    margin-top:3px;
- }
-
- 
-
- .navContent2{
-    width:65vw;
-    display:flex;
-    color:white;
-    font-weight: 550;
-    font-size:1.2vw;
-    justify-content: space-around;
-    align-items: center;
-    margin-left:10px;
- }
-
- .navContent2 div{
-    height:100%;
-    display:grid;
-    align-items: center;
-    padding: 0px 3px;
-    position: relative;
-    
+#hamburger #hb1{
+   background-color: azure;
+   width:100%;
+   height:13%;
+   border-radius:10px;
+   margin-top:3px;
+   right:0px;
    
-    
- }
-
- .navContent2 div:hover{
-    cursor: pointer;
-    background-color: #03738f ;
    
- }
+}
+#hamburger #hb2{
+   background-color: azure;
+   width:100%;
+   height:13%;
+   border-radius:10px;
+   margin-top:3px;
+}
+#hamburger #hb3{
+   background-color: azure;
+   width:100%;
+   height:13%;
+   border-radius:10px;
+   margin-top:3px;
+}
 
- 
 
 
- #navContent3{
+.navContent2{
+   width:65vw;
+   display:flex;
+   color:white;
+   font-weight: 550;
+   font-size:1.2vw;
+   justify-content: space-around;
+   align-items: center;
+   margin-left:10px;
+}
+
+.navContent2 div{
+   height:100%;
+   display:grid;
+   align-items: center;
+   padding: 0px 3px;
+   position: relative;
+   
+  
+   
+}
+
+.navContent2 div:hover{
+   cursor: pointer;
+   background-color: #03738f ;
+  
+}
+
+
+
+
+#navContent3{
 width:auto;
 height:100%;
 background-color:#F7B825 ;
@@ -93,23 +95,23 @@ color:#1c1c1c;
 font-weight:550;
 margin-left:15px;
 
- }
+}
 
- #navContent3 :nth-child(1){
-    color:red;
- }
+#navContent3 :nth-child(1){
+   color:red;
+}
 
- a{
-    text-decoration:none;
- }
+a{
+   text-decoration:none;
+}
 
 
- .text-heading a{
+.text-heading a{
 
-    color:white;
- }
+   color:white;
+}
 
- 
+
 
 .dropdown-menu{
 width:150px;
@@ -124,38 +126,38 @@ display:none;
 }
 
 .dropdown:hover>.dropdown-menu{
-   display:block;
+  display:block;
 }
 
 
 .dropdown-menu>a{
-    color:white;
-    font-size: 12px;
-    border-bottom:0.5px solid #1c1c1c3c;
-    padding:8px 8px;
-    display:block;
-    
+   color:white;
+   font-size: 12px;
+   border-bottom:0.5px solid #1c1c1c3c;
+   padding:8px 8px;
+   display:block;
    
+  
 
 }
 
 
 .dropdown-menu>a:hover{
 
-    cursor: pointer;
-    background-color: #03738f ;
-    display:block;
+   cursor: pointer;
+   background-color: #03738f ;
+   display:block;
 }
 
 a{
-   color:white;
+  color:white;
 }
 
 .button{
 
-   width:100px;
-   height:20px;
-   font-size:auto;
+  width:100px;
+  height:20px;
+  font-size:auto;
 margin: 8px 30px;
 border-radius:10px;
 border: none;
@@ -165,17 +167,7 @@ cursor: pointer;
 }
 
 .button:hover{
-   background-color:#1c1c1c;
-   color: white;
+  background-color:#1c1c1c;
+  color: white;
 
 }
-
-
-
-
-
-
-
- 
- 
- 

@@ -1,9 +1,23 @@
-let burger=document.querySelector(".hamburger");
+
+
+
+
+import navbar from "../components/navbar.js"
+
+
+document.querySelector("#navbar").innerHTML = navbar();
+
+
+
+
+
+
 let slider=document.querySelector("#slider");
 let close=document.querySelector("#close");
 
-burger.addEventListener("click", function(){
+document.getElementById("hamburger").addEventListener("click", function(){
 slider.style.display="block";
+console.log("abjsk")
 });
 
 
