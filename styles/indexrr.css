@@ -1,5 +1,18 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  color:black;
+
+}
+a{
+  color:black;
+}
+
+
 .spr{
-  margin:5px 0px -26px 190px;
+padding:10px;
+  margin-top:220px;
 }
 .line_r {
 
@@ -174,6 +187,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin-top:185px;
   }
 
   #top1>div {
@@ -198,6 +212,10 @@
 
   .clr {
     background-color: rgb(246, 246, 246);
+    color:black;
+  }
+  .clr a{
+    color:black;
   }
 
   .hrr {
@@ -232,7 +250,7 @@
     background-color: rgb(104, 169, 35);
     color: aliceblue;
     font-size: xx-large;
-    padding: 50px 60px 60px 60px;
+    padding: 50px 30px 60px 60px;
     text-decoration: none;
   }
 
@@ -270,6 +288,7 @@
     font-size: 37px;
     line-height: 21px;
     font-size: 20px;
+    color: rgb(9, 3, 3);
 
 
   }
@@ -308,10 +327,14 @@
     margin-left: 20px;
     margin-right: 20px;
   background-color: rgb(240,240,240);
+ 
   }
 
  #liker>div>img{
   width: 100%;
+ }
+ #liker>div>a{
+  color: grey;
  }
 
  .btnr{
