@@ -10,7 +10,7 @@ body{
     border: 0px solid red;
     margin: auto;
     margin-top: 200px;
-    margin-bottom: -440px;
+    margin-bottom: 100px;
 }
 .line{
     width: 100%;
@@ -103,7 +103,7 @@ body{
     width: 50%;
     height: 70%;
     margin-left: 110px;
-    margin-top: -50px;
+    margin-top: -10px;
 }
 #result_s{
     width: 60%;

@@ -11,8 +11,7 @@ body{
     border: 0px solid green;
     margin: auto;
     margin-top: 220px;
-  
- 
+    margin-bottom: 10px;
 }
 #main1{
     width: 100%;
