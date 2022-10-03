@@ -479,7 +479,7 @@ height: 100%;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 50%;
     gap: 10px 20px;
-    margin-bottom: -440px;
+    margin-bottom: 20px;
     
 }
 .add>div{
