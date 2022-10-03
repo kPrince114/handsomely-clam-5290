@@ -29,7 +29,7 @@ function navbar(){
   </div>
 <div class="dropdown">
 <section class="text-heading">
-<a href="#" > Bangaluru</a>
+<a href="indexrr.html" > Bangaluru</a>
 </section>
 <section class="dropdown-menu">
   <a href="#"><p>Top Stories</p></a>
@@ -67,7 +67,7 @@ function navbar(){
     </div>
     <div class="dropdown">
       <section class="text-heading">
-      <a href="#" >Sports</a>
+      <a href="sports.html">Sports</a>
       </section>
       <section class="dropdown-menu">
         <a href="#"><p>DH Cup 2022</p></a>
@@ -81,7 +81,7 @@ function navbar(){
       </div>
       <div class="dropdown">
         <section class="text-heading">
-        <a href="#" >Business</a>
+        <a href="fetch.html" >Business</a>
         </section>
         <section class="dropdown-menu">
           <a href="#"><p>Business News</p></a>
@@ -140,7 +140,7 @@ function navbar(){
                
                 <div class="dropdown">
                   <section class="text-heading">
-                  <a href="#">Specials</a>
+                  <a href="special.html">Specials</a>
                   </section>
                   <section class="dropdown-menu">
                     <a href="#"><p>Insight</p></a>
@@ -150,7 +150,7 @@ function navbar(){
                   </div>
                   
 </div>
-<a href="#"><div id="navContent3">
+<a href="newseleter.html"><div id="navContent3">
   <p>New</p>
   <p>Newsletters</p>
 </div></a>
